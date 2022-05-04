@@ -633,3 +633,91 @@ h2 {
   100%{ transform:rotate(360deg) ; -webkit-transform:rotate(360deg) ; -moz-transform:rotate(360deg) ; -ms-transform:rotate(360deg) ; -o-transform:rotate(360deg) ; }
   
 }
+
+#discord-all{
+  align-self: center;
+}
+
+#discord-link,#back-link{
+  padding: 10px 12px;
+  background-color: #000000ed;
+  color: white;
+  border-radius: 3px;
+  font-weight: bold;
+}
+#discord-link:hover i {
+  animation: moves 1s infinite ease-in-out;
+  animation-delay: 0.1s;
+  -webkit-animation: moves 1s infinite ease-in-out;
+  display: inline-block;
+}
+
+@media (max-width: 767px){
+ .nav-link,#discord-all {
+  margin-top: 7px;}
+}
+
+@media (max-width: 767px){
+  #up {
+    margin-top: 54px;}
+ }
+
+ /*--------------Bio---------------*/
+ .img-all{
+  text-align: -webkit-center;
+  margin-top: 42px;
+ }
+
+.info .img-bio{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  background: url(/images/undraw/my-pic.png);
+  box-shadow: 0px 0px 9px #aaaaaa;
+
+ }
+ .info .img-bio:hover{
+  transform: scale(102%);
+ }
+.s-all{
+  background-color: rgb(34, 34, 34);
+  text-align: center;
+  margin-top: 26px;
+  width: 53%;
+  margin: 26px auto;
+  padding: 13px;
+ }
+ .Discord-info a,.s-all a{
+   color: white;
+   font-weight: bold;
+   display: block;
+ }
+.s-all:hover a{
+  color:#ffc200  ;
+}
+.s-all:hover{
+  box-shadow: 0px 0px 9px #aaaaaa;
+  transform: scale(102%);
+
+}
+ .dd{
+   margin-right: 20px;
+ }
+
+ 
+ .Discord-info:hover i{
+  animation: moves 1s infinite ease-in-out;
+  animation-delay: 0.1s;
+  -webkit-animation: moves 1s infinite ease-in-out;
+  display: inline-block;
+  color: #ffc200 ;
+}
+
+.info,.All-info{
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
